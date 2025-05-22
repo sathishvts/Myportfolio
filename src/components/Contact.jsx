@@ -24,15 +24,15 @@ const Contact = ({ id }) => {
               <div className="contact-info">
                 <div className="info-item mb-3">
                   <i className="bi bi-geo-alt-fill"></i>
-                  <span>San Francisco, CA</span>
+                  <span>Chennai, India</span>
                 </div>
                 <div className="info-item mb-3">
                   <i className="bi bi-envelope-fill"></i>
-                  <span>john@example.com</span>
+                  <span>Sathish@gmail.com</span>
                 </div>
                 <div className="info-item mb-3">
                   <i className="bi bi-phone-fill"></i>
-                  <span>+1 (123) 456-7890</span>
+                  <span>+91 63445 66598</span>
                 </div>
               </div>
             </AnimatedSection>

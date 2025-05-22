@@ -9,7 +9,7 @@ const Hero = ({ id }) => {
         <Row className="align-items-center">
           <Col lg={6} className="hero-text">
             <AnimatedSection delay={0.2}>
-              <h1 className="hero-title">Hi, I'm John Doe</h1>
+              <h1 className="hero-title">Hi, I'm Sathish</h1>
             </AnimatedSection>
             <AnimatedSection delay={0.4}>
               <h2 className="hero-subtitle">Frontend Developer</h2>

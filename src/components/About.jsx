@@ -25,7 +25,7 @@ const About = ({ id }) => {
             </AnimatedSection>
             <AnimatedSection delay={0.6}>
               <p className="about-text">
-                I'm a passionate frontend developer with 5 years of experience creating
+                I'm a passionate frontend developer with 2 years of experience creating
                 responsive and user-friendly web applications. I specialize in React,
                 JavaScript, and modern CSS frameworks.
               </p>
@@ -33,18 +33,18 @@ const About = ({ id }) => {
             <AnimatedSection delay={0.8}>
               <div className="about-info">
                 <div className="info-item">
-                  <span>Name:</span> John Doe
+                  <span>Name:</span> Sathish
                 </div>
                 <div className="info-item">
-                  <span>Email:</span> john@example.com
+                  <span>Email:</span> Sathish@gmail.com
                 </div>
                 <div className="info-item">
-                  <span>From:</span> San Francisco, CA
+                  <span>From:</span> Thiruvannmalai,Tamil Nadu
                 </div>
               </div>
             </AnimatedSection>
             <AnimatedSection delay={1}>
-              <button className="btn btn-primary mt-3">Download CV</button>
+              <button className="btn btn-primary mt-3">Download </button>
             </AnimatedSection>
           </Col>
         </Row>
