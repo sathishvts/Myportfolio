@@ -1,0 +1,86 @@
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.hero-subtitle {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #495057;
+  max-width: 80%;
+}
+
+.hero-button {
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(13, 110, 253, 0.2);
+}
+
+.hero-image-col {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 350px;
+  height: 350px;
+  background-color: var(--primary-color);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  animation: morph 8s ease-in-out infinite;
+  /* background-image: url('../../assets/images/profile.jpg'); */
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  50% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  100% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    text-align: center;
+    padding: 8rem 0 4rem;
+  }
+  
+  .hero-description {
+    max-width: 100%;
+  }
+  
+  .hero-image {
+    width: 250px;
+    height: 250px;
+    margin-top: 3rem;
+  }
+}

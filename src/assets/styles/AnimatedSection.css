@@ -1,0 +1,6 @@
+/* Most animations are handled by Framer Motion in the component */
+/* You can add additional styles here if needed */
+
+.animated-section {
+  will-change: transform, opacity;
+}
